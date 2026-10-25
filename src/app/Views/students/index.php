@@ -28,6 +28,35 @@
                 </tr>
             </thead>
             <tbody>
+                <tr>
+                    <td></td>
+                    <td>Jayson Francisco</td>
+                    <td>jayson@gmail.com</td>
+                    <td>BSIT</td>
+                    <td class="text-nowrap">
+                        <!-- Add Edit and Delete buttons here -->
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Kylle Ian Acibron</td>
+                    <td>kylle@gmail.com</td>
+                    <td>BSIT</td>
+                    <td class="text-nowrap">
+                        <!-- Add Edit and Delete buttons here -->
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Klyde Castro</td>
+                    <td>klyde@gmail.com</td>
+                    <td>BSIT</td>
+                    <td class="text-nowrap">
+                        <!-- Add Edit and Delete buttons here -->
+                    </td>
+                </tr>
+            </tbody>
+            <tbody>
                 <?php foreach ($students as $student): ?>
                     <tr>
                         <td><?= esc($student['student_number']) ?></td>
